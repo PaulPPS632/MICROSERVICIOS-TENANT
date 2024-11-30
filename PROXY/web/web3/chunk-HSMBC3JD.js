@@ -1,0 +1,1 @@
+import{Wa as i,X as t,Xa as o,hb as r,pb as p}from"./chunk-SLZJNV7T.js";import"./chunk-EQDQRRRY.js";var a=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=t({type:n,selectors:[["app-pricing"]],standalone:!0,features:[p],decls:2,vars:0,template:function(e,s){e&1&&(i(0,"p"),r(1,"pricing works!"),o())}})};export{a as PricingComponent};

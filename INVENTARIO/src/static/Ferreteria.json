@@ -1,0 +1,558 @@
+{
+  "Marca": [
+    { "nombre": "DEWALT" },
+    { "nombre": "BOSCH" },
+    { "nombre": "OEM" },
+    { "nombre": "BAUKER" },
+    { "nombre": "TRUPER" },
+
+    { "nombre": "JUST HOME COLLECTION" },
+
+    { "nombre": "BONNO" },
+    { "nombre": "BARAKA HOME" },
+    { "nombre": "CASA BONITA" },
+    { "nombre": "TUHOME" },
+    { "nombre": "FIXSER" },
+
+    { "nombre": "AMERICAN COLORS" },
+    { "nombre": "KOLOR" },
+    { "nombre": "SIKA" },
+    { "nombre": "MONTANA COLORS" },
+    { "nombre": "T-CON" }
+
+  ],
+  "CategoriaMarca": [
+    { "MarcaId": 1, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 2, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 3, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 4, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 5, "nombre": "NO DETERMINADO" },
+
+    { "MarcaId": 6, "nombre": "NO DETERMINADO" },
+
+    { "MarcaId": 7, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 8, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 9, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 10, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 11, "nombre": "NO DETERMINADO" },
+
+    { "MarcaId": 12, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 13, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 14, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 15, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 16, "nombre": "NO DETERMINADO" }
+
+  ],
+  "Categoria": [
+    { "nombre": "Herramientas y Maquinas", "descripcion": "Descripcion de Herramientas y Maquinas" },
+    { "nombre": "Terrazas y Jardín", "descripcion": "Descripcion de Terrazas y Jardín"},
+    { "nombre": "Muebles", "descripcion": "Descripcion de Muebles" },
+    { "nombre": "Pinturas", "descripcion": "Descripcion de Pinturas" },
+    
+    { "nombre": "Dormitorio", "descripcion": "Descripcion de Dormitorio" },
+    { "nombre": "Electrohogar", "descripcion": "Descripcion de Electrohogar" },
+    { "nombre": "Tecnología", "descripcion": "Descripcion de Tecnología" },
+    { "nombre": "Bañosy Cocinas", "descripcion": "Descripcion de Bañosy Cocinas" },
+    { "nombre": "Limpieza", "descripcion": "Descripcion de Limpieza" },
+    { "nombre": "Pisos", "descripcion": "Descripcion de Pisos" }
+  ],
+  "SubCategoria": [
+    {
+      "nombre": "Herramientas eléctricas e inalámbricas",
+      "descripcion": "Herramientas eléctricas e inalámbricas",
+      "CategoriaId": 1
+    },
+    {
+      "nombre": "Cajas de herramientas y organizadores",
+      "descripcion": "Cajas de herramientas y organizadores",
+      "CategoriaId": 1
+    },
+    {
+      "nombre": "Herramientas manuales",
+      "descripcion": "Herramientas manuales",
+      "CategoriaId": 1
+    },
+
+
+
+    {
+      "nombre": "Toldos y Pérgolas",
+      "descripcion": "Toldos y Pérgolas",
+      "CategoriaId": 2
+    },
+    {
+      "nombre": "Muebles de terraza",
+      "descripcion": "Muebles de terraza",
+      "CategoriaId": 2
+    },
+    {
+      "nombre": "Accesorios Outdoor",
+      "descripcion": "Accesorios Outdoor",
+      "CategoriaId": 2
+    },
+
+
+
+    {
+      "nombre": "Oficina",
+      "descripcion": "Oficina",
+      "CategoriaId": 3
+    },
+    {
+      "nombre": "Sala",
+      "descripcion": "Sala",
+      "CategoriaId": 3
+    },
+    {
+      "nombre": "Dormitorio",
+      "descripcion": "Dormitorio",
+      "CategoriaId": 3
+    },
+    {
+      "nombre": "Comedor",
+      "descripcion": "Comedor",
+      "CategoriaId": 3
+    },
+    {
+      "nombre": "Organizador",
+      "descripcion": "Organizador",
+      "CategoriaId": 3
+    },
+
+
+    {
+      "nombre": "Pintura Latex",
+      "descripcion": "Pintura Latex",
+      "CategoriaId": 4
+    },
+    {
+      "nombre": "Herramientas de Pintura",
+      "descripcion": "Herramientas de Pintura",
+      "CategoriaId": 4
+    },
+    {
+      "nombre": "Pegamentos y adhesivos",
+      "descripcion": "Pegamentos y adhesivos",
+      "CategoriaId": 4
+    },
+    {
+      "nombre": "Pinturas especiales y por material",
+      "descripcion": "Pinturas especiales y por material",
+      "CategoriaId": 4
+    },
+    {
+      "nombre": "Preparación y reparación superficies",
+      "descripcion": "Preparación y reparación superficies",
+      "CategoriaId": 4
+    }
+
+
+  ],
+  "Producto": [
+
+    {
+      "nombre": "Taladro Percutor Inalámbrico ",
+      "pn": "DEWALT-7",
+      "descripcion": "Taladro Percutor Inalámbrico 1/2\" 20V DCD7781 + Atornillador de Impacto DCF7871 + 2 Baterías 2Ah + Cargador + Bolso Lona Dewalt",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 799.90,
+
+      "SubCategoriaId": 1,
+      "CategoriaMarcaId": 1,
+      
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_taladro_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_taladro_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_taladro_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_taladro_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_taladro_3.webp"
+      ]
+    },
+    {
+      "nombre": "Set de Puntas y Brocas Bosch",
+      "pn": "BOSCH-7",
+      "descripcion": "Set de Puntas y Brocas Bosch V-line 41 unidades",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 79.90,
+
+      "SubCategoriaId": 2,
+      "CategoriaMarcaId": 2,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_set_puntas_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_set_puntas_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_set_puntas_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_set_puntas_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_set_puntas_3.webp"
+      ]
+    },
+    {
+      "nombre": "Llave Universal Tuercas",
+      "pn": "OEM-7",
+      "descripcion": "Snap And Grip Llave Universal Tuercas Tornillos Valvulas",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 7670.0,
+
+      "SubCategoriaId": 1,
+      "CategoriaMarcaId": 3,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_tornillo_tuercas_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_tornillo_tuercas_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_tornillo_tuercas_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_tornillo_tuercas_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_tornillo_tuercas_3.webp"
+      ]
+    },
+    {
+      "nombre": "Sierra Caladora Eléctrica",
+      "pn": "BAUK-7",
+      "descripcion": "Sierra Caladora Eléctrica 570W + Accesorios Bauker",
+      "garantia_cliente": 36.0,
+      "garantia_total": 48.0,
+      "stock": 0.0,
+      "precio": 59.90,
+
+      "SubCategoriaId": 2,
+      "CategoriaMarcaId": 4,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_sierra_caladora_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_sierra_caladora_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sierra_caladora_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sierra_caladora_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sierra_caladora_3.webp"
+      ]
+    },
+    {
+      "nombre": "Cortador de mayólica",
+      "pn": "TRUP-7",
+      "descripcion": "Cortador de mayólica porcelanato 24\" 60 cm con maletín Truper Expert",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 59.90,
+
+      "SubCategoriaId": 3,
+      "CategoriaMarcaId": 6,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_cortador_mayolica_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_cortador_mayolica_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_cortador_mayolica_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_cortador_mayolica_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_cortador_mayolica_3.webp"
+      ]
+    },
+
+
+
+    {
+      "nombre": "Pérgola Romana con Cortina",
+      "pn": "JUST-7",
+      "descripcion": "Pérgola Romana con Cortina Taupe 3x4mt",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 529.0,
+
+      "SubCategoriaId": 4,
+      "CategoriaMarcaId": 6,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_pergola_romana_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_pergola_romana_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_pergola_romana_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_pergola_romana_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_pergola_romana_3.webp"
+      ]
+    },
+    {
+      "nombre": "Juego de Balcón Victoria",
+      "pn": "JUST-7",
+      "descripcion": "Juego de Balcón Victoria 3 Piezas Acero Negro",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 529.0,
+
+      "SubCategoriaId": 5,
+      "CategoriaMarcaId": 6,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_juego_balcon_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_juego_balcon_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_juego_balcon_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_juego_balcon_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_juego_balcon_3.webp"
+      ]
+    },
+    {
+      "nombre": "Sillón Columpio Rayas Verde",
+      "pn": "JUST-7",
+      "descripcion": "Sillón Columpio Rayas Verde 3 Personas",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 219.9,
+
+      "SubCategoriaId": 5,
+      "CategoriaMarcaId": 6,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_sillon_columpio_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_sillon_columpio_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sillon_columpio_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sillon_columpio_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sillon_columpio_3.webp"
+      ]
+    },
+    {
+      "nombre": "Mesa Plegable Blanca",
+      "pn": "JUST-7",
+      "descripcion": "Mesa Plegable Blanca Tipo Maleta 180cm",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 199.9,
+
+      "SubCategoriaId": 6,
+      "CategoriaMarcaId": 6,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_mesa_pegable_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_mesa_pegable_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_mesa_pegable_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_mesa_pegable_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_mesa_pegable_3.webp"
+      ]
+    },
+    {
+      "nombre": "Sillon de Terraza Chocolate de Resina",
+      "pn": "JUST-7",
+      "descripcion": "Sillon de Terraza Chocolate de Resina",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 99.9,
+
+      "SubCategoriaId": 5,
+      "CategoriaMarcaId": 6,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_sillon_terraza_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_sillon_terraza_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sillon_terraza_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sillon_terraza_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sillon_terraza_3.webp"
+      ]
+    },
+
+
+
+    {
+      "nombre": "Escritorio con Altura Ajustable",
+      "pn": "BON-7",
+      "descripcion": "Escritorio con Altura Ajustable Ferrari Negro",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 1799.9,
+
+      "SubCategoriaId": 7,
+      "CategoriaMarcaId": 7,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_escritorio_altura_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_escritorio_altura_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_escritorio_altura_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_escritorio_altura_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_escritorio_altura_3.webp"
+      ]
+    },
+    {
+      "nombre": "Baúl Capitoneado Bunn 1 Plz - Negro",
+      "pn": "BARK-7",
+      "descripcion": "Baúl Capitoneado Bunn 1 Plz - Negro",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 299.0,
+
+      "SubCategoriaId": 8,
+      "CategoriaMarcaId": 8,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_baul_carpitoneado_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_baul_carpitoneado_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_baul_carpitoneado_1.webp"
+      ]
+    },
+    {
+      "nombre": "Ropero 8 Puertas",
+      "pn": "CAS-7",
+      "descripcion": "Ropero 8 Puertas 4 Cajones Nogal",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 649.9,
+
+      "SubCategoriaId": 9,
+      "CategoriaMarcaId": 9,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_ropero_8_puertas_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_ropero_8_puertas_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_ropero_8_puertas_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_ropero_8_puertas_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_ropero_8_puertas_3.webp"
+      ]
+    },
+    {
+      "nombre": "Bar Esquinero Cava",
+      "pn": "TUHM-7",
+      "descripcion": "Bar Esquinero Cava Beijing Syrah",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 499.0,
+
+      "SubCategoriaId": 10,
+      "CategoriaMarcaId": 10,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_bar_esquinero_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_bar_esquinero_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_bar_esquinero_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_bar_esquinero_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_bar_esquinero_3.webp"
+      ]
+    },
+    {
+      "nombre": "Estante Metal 4 Niveles 176x75x40cm",
+      "pn": "FIX-7",
+      "descripcion": "El estante organizador es un imprescindible para mantener tus pertenencias ordenadas y a la vista. Con múltiples niveles y compartimentos, este versátil mueble es perfecto para la organización en cualquier habitación.",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 179.9,
+
+      "SubCategoriaId": 11,
+      "CategoriaMarcaId": 11,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_estante_metal_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_estante_metal_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_estante_metal_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_estante_metal_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_estante_metal_3.webp"
+      ]
+    },
+
+
+
+    {
+      "nombre": "Pintura American Latex Mate",
+      "pn": "AM-7",
+      "descripcion": "Pintura American Latex Mate Profundo 1/4GL",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 34.9,
+
+      "SubCategoriaId": 12,
+      "CategoriaMarcaId": 12,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_pintura_latex_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_pintura_latex_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_pintura_latex_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_pintura_latex_2.webp"
+      ]
+    },
+    {
+      "nombre": "Brocha Latex 2 1/2",
+      "pn": "KOL-7",
+      "descripcion": "Brocha Latex 2 1/2''",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 23.90,
+
+      "SubCategoriaId": 13,
+      "CategoriaMarcaId": 13,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_brocha_latex_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_brocha_latex_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_brocha_latex_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_brocha_latex_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_brocha_latex_3.webp"
+      ]
+    },
+    {
+      "nombre": "Silicona Antihongos",
+      "pn": "SIK-7",
+      "descripcion": "Silicona Antihongos Para Baños Y Cocinas Sanisil Beige 280ml",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 23.9,
+
+      "SubCategoriaId": 14,
+      "CategoriaMarcaId": 14,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_silicona_antihongos_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_silicona_antihongos_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_silicona_antihongos_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_silicona_antihongos_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_silicona_antihongos_3.webp"
+      ]
+    },
+    {
+      "nombre": "Pintura Spray Azul Leviatán",
+      "pn": "MONT-7",
+      "descripcion": "Pintura Spray Azul Leviatán 400ml",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 27.9,
+
+      "SubCategoriaId": 15,
+      "CategoriaMarcaId": 15,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_pintura_spray_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_pintura_spray_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_pintura_spray_1.webp",
+        "http://localhost:3000/api/archivos/uploads/img_pintura_spray_2.webp",
+        "http://localhost:3000/api/archivos/uploads/img_pintura_spray_3.webp"
+      ]
+    },
+    {
+      "nombre": "Sellador Acrílico Transparente",
+      "pn": "T-7",
+      "descripcion": "Sellador acrílico transparente para pisos, paredes y mesadas, T-Con PT-1 es ideal para fino acabados.",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 74.9,
+
+      "SubCategoriaId": 16,
+      "CategoriaMarcaId": 16,
+
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/img_sellador_acrilico_main.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/img_sellador_acrilico_main.webp",
+        "http://localhost:3000/api/archivos/uploads/img_sellador_acrilico_1.webp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import{Wa as o,X as n,Xa as a,hb as i,pb as m}from"./chunk-SLZJNV7T.js";import"./chunk-EQDQRRRY.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-documentation"]],standalone:!0,features:[m],decls:2,vars:0,template:function(e,s){e&1&&(o(0,"p"),i(1,"documentation works!"),a())}})};export{c as DocumentationComponent};

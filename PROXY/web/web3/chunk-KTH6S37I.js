@@ -1,0 +1,1 @@
+import{Wa as o,X as t,Xa as r,hb as i,pb as a}from"./chunk-SLZJNV7T.js";import"./chunk-EQDQRRRY.js";var s=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=t({type:n,selectors:[["app-ordering"]],standalone:!0,features:[a],decls:2,vars:0,template:function(e,d){e&1&&(o(0,"p"),i(1,"ordering works!"),r())}})};export{s as OrderingComponent};

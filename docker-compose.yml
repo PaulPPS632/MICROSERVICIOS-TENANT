@@ -1,0 +1,104 @@
+version: "3.9"
+
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: paul
+      MYSQL_PASSWORD: paulp
+    ports:
+      - "3307:3306"
+    healthcheck:
+      test:
+        ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init-scripts:/docker-entrypoint-initdb.d
+
+  archivos:
+    build:
+      context: ./ARCHIVOS
+    ports:
+      - "3004:3004"
+    env_file:
+      - ./ARCHIVOS/.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./ARCHIVOS:/app # Mapea la carpeta de imágenes para persistencia
+    command: ["npm", "run", "dev"]
+
+  facturacion:
+    build:
+      context: ./FACTURACION
+    ports:
+      - "3002:3002"
+    env_file:
+      - ./FACTURACION/.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./FACTURACION:/app # Mapea la carpeta de imágenes para persistencia
+    command: ["npm", "run", "dev"]
+
+  inventario:
+    build:
+      context: ./INVENTARIO
+    ports:
+      - "3001:3001"
+    env_file:
+      - ./INVENTARIO/.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./INVENTARIO:/app # Mapea la carpeta de imágenes para persistencia
+    command: ["npm", "run", "dev"]
+  tenant:
+    build:
+      context: ./TENANT
+    ports:
+      - "3003:3003"
+    env_file:
+      - ./TENANT/.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./TENANT:/app # Mapea la carpeta de imágenes para persistencia
+    command: ["npm", "run", "dev"]
+  gateway:
+    build:
+      context: ./gateway
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./gateway/.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./gateway:/app # Mapea la carpeta de imágenes para persistencia
+    command: ["npm", "run", "dev"]
+  proxy:
+    build:
+      context: ./PROXY
+    ports:
+      - "3008:3008"
+    env_file:
+      - ./PROXY/.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./PROXY:/app # Mapea la carpeta de imágenes para persistencia
+    command: ["npm", "run", "dev"]
+volumes:
+  mysql_data:

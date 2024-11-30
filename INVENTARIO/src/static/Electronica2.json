@@ -1,0 +1,190 @@
+{
+  "Marca": [
+    { "nombre": "ACER" },
+    { "nombre": "ADATA" },
+    { "nombre": "APPLE" },
+    { "nombre": "ASUS" },
+    { "nombre": "BITDEFENDER" },
+    { "nombre": "BROTHER" },
+    { "nombre": "CYBERPOWER" },
+    { "nombre": "DELL" },
+    { "nombre": "ENKORE" },
+    { "nombre": "EPSON" },
+    { "nombre": "GAMEMAX" },
+    { "nombre": "GRYPHUS" },
+    { "nombre": "HALION" },
+    { "nombre": "HP" },
+    { "nombre": "HUAWEI" },
+    { "nombre": "HYPERX" },
+    { "nombre": "INDETERMINADO" },
+    { "nombre": "INTEL" },
+    { "nombre": "KASPERSKY" },
+    { "nombre": "KINGSTON" },
+    { "nombre": "LENOVO" },
+    { "nombre": "LG" },
+    { "nombre": "MICROSOFT" },
+    { "nombre": "MIRAY" },
+    { "nombre": "MSI" },
+    { "nombre": "NEC" },
+    { "nombre": "SAMSUNG" },
+    { "nombre": "SEAGATE" },
+    { "nombre": "TEAMGROUP" },
+    { "nombre": "TEROS" },
+    { "nombre": "TOSHIBA" },
+    { "nombre": "YEYIAN" },
+    { "nombre": "IMEXX" },
+    { "nombre": "GAMBYTE" },
+    { "nombre": "BENQ" }
+  ],
+  "CategoriaMarca": [
+    { "MarcaId": 1, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 2, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 3, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 4, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 5, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 6, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 7, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 8, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 9, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 10, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 11, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 12, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 13, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 14, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 15, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 16, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 17, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 18, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 19, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 20, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 21, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 22, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 23, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 24, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 25, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 26, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 27, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 28, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 29, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 30, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 31, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 32, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 33, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 34, "nombre": "NO DETERMINADO" },
+    { "MarcaId": 35, "nombre": "NO DETERMINADO" }
+  ],
+  "Categoria": [
+    { "nombre": "Accesorios Varios", "descripcion": "Accesorios Varios" },
+    { "nombre": "Equipo Movil", "descripcion": "Equipo Movil" },
+    { "nombre": "Impresoras", "descripcion": "Impresoras" },
+    { "nombre": "Laptops", "descripcion": "Laptops" },
+    {
+      "nombre": "Memorias Ram y Almacenamiento",
+      "descripcion": "Memorias Ram y Almacenamiento"
+    },
+    { "nombre": "Monitores", "descripcion": "Monitores" },
+    { "nombre": "PC", "descripcion": "PC" },
+    { "nombre": "Procesadores", "descripcion": "Procesadores" },
+    { "nombre": "Proyectores", "descripcion": "Proyectores" },
+    { "nombre": "Software/Licencias", "descripcion": "Software/Licencias" },
+    { "nombre": "Tintas", "descripcion": "Tintas" }
+  ],
+  "SubCategoria": [
+    {
+      "nombre": "Accesorios de Oficina",
+      "descripcion": "Accesorios de Oficina",
+      "CategoriaId": 1
+    },
+    { "nombre": "Celulares", "descripcion": "Celulares", "CategoriaId": 2 },
+    { "nombre": "Impresoras", "descripcion": "Impresoras", "CategoriaId": 3 },
+    {
+      "nombre": "Laptop Reacondicionada",
+      "descripcion": "Laptop Oficina",
+      "CategoriaId": 4
+    },
+    {
+      "nombre": "Laptop Gama Alta",
+      "descripcion": "Laptop Gamer Gama Alta Americana",
+      "CategoriaId": 4
+    },
+    {
+      "nombre": "Laptop Gamer",
+      "descripcion": "Laptop Gamer Latina",
+      "CategoriaId": 4
+    },
+    {
+      "nombre": "Laptop Oficina",
+      "descripcion": "Laptop Oficina",
+      "CategoriaId": 4
+    },
+    {
+      "nombre": "Memorias Ram y Almacenamiento",
+      "descripcion": "Memorias Ram y Almacenamiento",
+      "CategoriaId": 5
+    },
+    { "nombre": "Monitores", "descripcion": "Monitores", "CategoriaId": 6 },
+    {
+      "nombre": "Monitores Segunda",
+      "descripcion": "Monitores Segunda",
+      "CategoriaId": 6
+    },
+    {
+      "nombre": "PC All in One",
+      "descripcion": "PC All in One",
+      "CategoriaId": 7
+    },
+    {
+      "nombre": "PC Escritorio",
+      "descripcion": "PC Escritorio",
+      "CategoriaId": 7
+    },
+    {
+      "nombre": "Procesadores Intel",
+      "descripcion": "Procesadores Intel",
+      "CategoriaId": 8
+    },
+    { "nombre": "Proyectores", "descripcion": "Proyectores", "CategoriaId": 9 },
+    {
+      "nombre": "Software/Licencias",
+      "descripcion": "Software/Licencias",
+      "CategoriaId": 10
+    },
+    { "nombre": "Tablets", "descripcion": "Tablets", "CategoriaId": 2 },
+    { "nombre": "Tintas", "descripcion": "Tintas", "CategoriaId": 11 },
+    { "nombre": "Mini PC", "descripcion": "Mini PC", "CategoriaId": 7 },
+    {
+      "nombre": "Mini PC Reacondiconada",
+      "descripcion": "Mini PC Reacondiconada",
+      "CategoriaId": 7
+    },
+    {
+      "nombre": "Workstation",
+      "descripcion": "PC Escritorio",
+      "CategoriaId": 7
+    },
+    {
+      "nombre": "PC Reacondicionada",
+      "descripcion": "PC Reacondicionada",
+      "CategoriaId": 7
+    }
+  ],
+  "Producto": [
+    {
+      "nombre": "PRECISION 5570",
+      "pn": "DELL-7",
+      "descripcion": "Intel Core i9-12900H (14 Núcleos) Memoria Ram 64GB DDR5, Unidad de estado solido 1TB SSD M.2 PCIe NVMe, Pantalla 15.6 UHD (3840*2400) Táctil, Nvidia RTX A20008GB GDDR6, Sistema Operativo Windows 10 Pro",
+      "garantia_cliente": 12.0,
+      "garantia_total": 36.0,
+      "stock": 0.0,
+      "precio": 7670.0,
+      "SubCategoriaId": 5,
+      "CategoriaMarcaId": 8,
+      "imagen_principal": "http://localhost:3000/api/archivos/uploads/1732770677270-imgprincipal.webp",
+      "imageurl": [
+        "http://localhost:3000/api/archivos/uploads/1732770677270-imgprincipal.webp",
+        "http://localhost:3000/api/archivos/uploads/1732770677270-sec3.webp",
+        "http://localhost:3000/api/archivos/uploads/1732770677270-sec2.webp"
+      ]
+    }
+  ]
+}

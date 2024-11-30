@@ -1,0 +1,1 @@
+import{Wa as n,X as o,Xa as s,hb as r,pb as a}from"./chunk-SLZJNV7T.js";import"./chunk-EQDQRRRY.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-vouchers"]],standalone:!0,features:[a],decls:2,vars:0,template:function(e,i){e&1&&(n(0,"p"),r(1,"vouchers works!"),s())}})};export{c as VouchersComponent};
